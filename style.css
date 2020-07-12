@@ -46,8 +46,9 @@
     #submit_info{
       color:darkgray;
     }
-    .container {
-      margin-top: 4%;
+    .container ,container-fluid{
+      padding: 2%;
+width: 100%; /* Full width */
     }
 
     .container .content {
@@ -62,11 +63,12 @@
       width: 100%; /* Full width */
       padding: 20px; /* Some padding */
 }
+iframe {width: 100%; /* Full width */}
 footer{
   width: 100%;
   background-color: wheat;
   color:dimgray;
-  padding: 1%;
+  padding: 2%;
 
 }
 .fa{
